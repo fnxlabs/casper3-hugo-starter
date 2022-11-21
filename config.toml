@@ -1,14 +1,14 @@
 DefaultContentLanguage = "en"
-author = "Steve Francia"
-baseURL = "https://gohugo.io/"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+author = ""
+baseURL = "https://fnxlabs.net"
+copyright = ""
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
+ignoreErrors = ["error-remote-getjson"]
 languageCode = "en"
 paginate = 3
 theme = "github.com/jonathanjanssens/hugo-casper3"
-title = "Hugo Themes"
-ignoreErrors = ["error-remote-getjson"]
+title = "FNX Labs"
 [[menu.main]]
 identifier = "about"
 name = "About"
@@ -30,12 +30,12 @@ name = "Author Homepage"
 url = "https://jonathanjanssens.com"
 weight = 40
 [params]
-description = "Just a demo site for the Casper3 theme ported to Hugo"
-facebook = "https://facebook.com"
-github = "https://github.com/jonathanjanssens"
-logo = "/images/ghost-transparent.png"
+description = "FNX Labs"
+facebook = ""
+github = "https://github.com/FNX-Labs"
+logo = "/images/fnxlogo-text-white.png"
 mainSections = ["post"]
-twitter = "https://twitter.com"
+twitter = "https://twitter.com/fnxlabs"
 [privacy.instagram]
 disabled = false
 simple = true
